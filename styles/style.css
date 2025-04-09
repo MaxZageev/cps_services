@@ -18,7 +18,14 @@
     justify-content: flex-start;
     align-items: center;
 }
-
+.wrapper__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
 .menu-burger-button,
 .round-icon {
     width: 40px;
@@ -52,6 +59,8 @@
 }
 
 .logo {
+    display: flex;
+    justify-content: flex-start;
     width: 97px;
     height: 51px;
     margin-left: 17px;
@@ -104,9 +113,8 @@
     background-image: url("../img/chatmessage.svg");
 }
 
-.menu__link--login.round-icon,
-.menu__link--call.round-icon,
-.menu__link--call.round-icon {
+.menu__link--login.round-icon
+ {
     background-image: url("../img/profileuser.svg");
 }
 
@@ -190,8 +198,7 @@
     white-space: nowrap;
     display: flex;
     overflow-x: auto;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    
 }
 
 

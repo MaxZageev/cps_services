@@ -28,11 +28,11 @@
     }
 
     .menu__list li:first-child .menu__button::after {
-        background-image: url("../images/repairsetting.svg");
+        background-image: url("../img/repairsetting.svg");
     }
 
     .menu__list li:last-child .menu__button::after {
-        background-image: url("../images/checkstatussearch.svg");
+        background-image: url("../img/checkstatussearch.svg");
     }
 
     .main__title--position {
