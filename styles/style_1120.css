@@ -1,0 +1,113 @@
+@media screen  and (min-width: 1120px) {
+    .header {
+        display: none;
+    }
+
+    .menu__button {
+        color: rgb(27, 28, 33);
+        font-family: 'TT Lakes', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        text-align: left;
+        background: none;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menu__button::after {
+        content: "";
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        margin-left: 8px;
+        background-size: cover;
+    }
+
+    .menu__list li:first-child .menu__button::after {
+        background-image: url("../images/repairsetting.svg");
+    }
+
+    .menu__list li:last-child .menu__button::after {
+        background-image: url("../images/checkstatussearch.svg");
+    }
+
+    .main__title--position {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .main__wrapper {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .main__menu--hidden {
+        display: flex;;
+    }
+
+    .main__header {
+        padding-top: 42px;
+        padding-left: 33px;
+        padding-right: 33px;
+        padding-bottom: 16.22px;
+        gap: 8px;
+    }
+
+
+    .article__text {
+        max-height: 160px;
+        flex-basis: 490px;
+        overflow: hidden;
+    }
+
+    .article__content--size {
+        padding-left: 32px;
+    }
+
+    .article__content--size {
+        min-width: 490px;
+        min-height: 160px;
+        padding-left:35px;
+        padding-right: 35px;
+
+    }
+
+    .article__image {
+        padding-left:0;
+        padding-right: 30px;
+        min-width: 360px;
+        flex:1;
+
+    }
+
+    .main__section {
+        padding-bottom: 40px;
+    }
+
+    .navigation {
+        overflow-x: initial;
+        height: 82px;
+    }
+
+    .navigation__link-hidden {
+        display: none;
+    }
+
+    .navigation__list {
+        flex-wrap: wrap;
+        overflow-x: clip;
+    }
+
+    .main__title::before {
+        left: -32px;
+    }
+
+    .main__section {
+        padding-bottom: 49px;
+    }
+}
+
