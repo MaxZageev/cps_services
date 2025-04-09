@@ -30,7 +30,7 @@
 }
 
 .menu-burger-button {
-    background-image: url("/img/burgerburger.svg");
+    background-image: url("img/burgerburger.svg");
 }
 
 .deliver,
@@ -97,25 +97,25 @@
 }
 
 .menu__link--call.round-icon {
-    background-image: url("/img/callcall.svg");
+    background-image: url("img/callcall.svg");
 }
 
 .menu__link--write.round-icon {
-    background-image: url("/img/chatmessage.svg");
+    background-image: url("img/chatmessage.svg");
 }
 
 .menu__link--login.round-icon,
 .menu__link--call.round-icon,
 .menu__link--call.round-icon {
-    background-image: url("/img/profileuser.svg");
+    background-image: url("img/profileuser.svg");
 }
 
 .menu__button--status.round-icon {
-    background-image: url("/img/repairsetting.svg");
+    background-image: url("img/repairsetting.svg");
 }
 
 .menu__button--application.round-icon {
-    background-image: url("/img/checkstatussearch.svg");
+    background-image: url("img/checkstatussearch.svg");
 }
 
 .menu--primary {
@@ -274,7 +274,7 @@
     width: 24px;
     height: 24px;
     margin-right: 8px;
-    background-image: url('/img/expandread-more.svg');
+    background-image: url('img/expandread-more.svg');
     background-size: cover;
 }
 
